@@ -1,4 +1,4 @@
 From nginx 
 WORKDIR /opy
 RUN  apt-get update 
-copy . /usr/share/nginx
+copy . /usr/share/nginx/html/
