@@ -3,4 +3,4 @@ WORKDIR /opy
 RUN  apt-get update 
 copy . /usr/share/nginx/html/
 EXPOSE 80
-CMD [ "-g","nginx","daemon" ]
+CMD [ "-g","nginx","daemon off;" ]
