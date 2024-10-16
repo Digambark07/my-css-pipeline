@@ -1,5 +1,5 @@
 FROM nginx
-RUN  apt-get update -y
+RUN  apt-get update
 WORKDIR /app
 COPY . /usr/shere/nginx/html/   
 EXPOSE 80
