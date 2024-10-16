@@ -1,1 +1,2 @@
-From 3vilgenius/nginx-proxy
+From nginx 
+WORKDIR /the/workdir/path
