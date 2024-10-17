@@ -54,5 +54,5 @@ pipeline {
             steps {
                 sh ' docker build -t digambarkare/jk-8 . '  // Corrected docker build command syntax
             }
-    }
+        }
 }
