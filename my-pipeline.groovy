@@ -55,4 +55,5 @@ pipeline {
                 sh ' docker run -d -p 80:80 digambarkare/jk-8 '  // Corrected docker build command syntax
             }
         }
-}
+        }
+    }
