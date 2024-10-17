@@ -49,6 +49,7 @@ pipeline {
                     sh 'docker push digambarkare/jk-8'  // Added Docker push command inside withDockerRegistry
                 }
             }
+
         stage('deploy Docker Image') {  // Corrected spacing
             steps {
                 sh ' docker build -t digambarkare/jk-8 . '  // Corrected docker build command syntax
