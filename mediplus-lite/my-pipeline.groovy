@@ -30,7 +30,7 @@ pipeline {
     stages {  // Corrected spelling: 'satages' to 'stages'
         stage('Pull Source Code') {  // Corrected indentation and spacing
             steps {
-                git branch: 'main', url: 'https://github.com/Digambark07/my-css-pipeline.git'
+                git branch: 'master', url: 'https://github.com/Digambark07/my-css-pipeline.git'
             }
         }
 
