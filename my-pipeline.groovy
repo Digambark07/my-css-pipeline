@@ -49,6 +49,6 @@ pipeline {
                     sh 'docker push digambarkare/jk-8'  // Added Docker push command inside withDockerRegistry
                 }
             }
-        }
+        
     }
 }
