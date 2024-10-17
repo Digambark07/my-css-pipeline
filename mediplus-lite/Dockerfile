@@ -1,7 +1,6 @@
 
 FROM nginx 
->>>>>>> f78db875364f300e23d1a3f36ff7a7a3ffe18
-WORKDIR /opy
+WORKDIR /opt
 RUN  apt-get update 
 COPY . /usr/share/nginx/html/
 EXPOSE 80
