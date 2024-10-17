@@ -52,7 +52,7 @@ pipeline {
 
         stage('deploy Docker Image') {  // Corrected spacing
             steps {
-                sh ' docker run -d -p 80:80 digambarkare/jk-8:$(BUILD_NUMBER) '  // Corrected docker build command syntax
+                sh ' docker run -d -p 80:80 digambarkare/jk-8:$(BUILD_NUMBER). '  // Corrected docker build command syntax
             }
         }
         }
