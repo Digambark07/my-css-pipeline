@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('pull source code') {
+        stage('pull source code') {
             steps {
                 git branch: 'main', url: 'https://github.com/Digambark07/my-css-pipeline.git'
             }
