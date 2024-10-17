@@ -36,7 +36,7 @@ pipeline {
 
         stage('Build Docker Image') {  // Corrected spacing
             steps {
-                sh 'docker build -t digambarkare/jk-8 ./mediplus-lite/dockerfile'  // Corrected docker build command syntax
+                sh 'docker build -t digambarkare/jk-8 dockerfile'  // Corrected docker build command syntax
             }
         }
 
